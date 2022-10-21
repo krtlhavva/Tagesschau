@@ -1,0 +1,210 @@
+body{
+  background-image:url("img/Download.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+#topleiste{
+    position: fixed;
+    background-color: #003480;
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    
+}
+#logo{
+    float: right;
+    height: 8vh;
+    width: auto;
+}
+
+#topleiste li{
+    list-style: none;
+    float: left;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 15px;
+}
+
+#recht li{
+    float: right;
+    padding-right: 40px;
+}
+#topleiste li a{
+    color:white;
+}
+
+
+#topleiste a:link {
+    text-decoration: none;
+    padding: 10px,5px,45px,5px;
+  }
+  
+  #topleiste  a:visited {
+    text-decoration: none;
+    
+  }
+  
+  #topleiste  a:hover {
+    text-decoration: none;
+    background-color: white;
+    color:black;
+    padding: 10px;
+  }
+  
+  #topleiste  a:active {
+    text-decoration: underline;
+    color:#04B48D
+  }
+
+.festebreite{
+  display: flex;
+  width: 1100px;
+  margin: auto;
+  align-items:center;
+  justify-content:space-between;
+
+}
+
+#ardbild{
+  height: 15vh;
+  margin-top: 80px;
+}
+
+input{
+  height: 3vh;
+  margin-top: 80px;
+  background-image: url("img/magnifying.jpg");
+  background-repeat: no-repeat;
+  background-size: 40px;
+  background-position: right ;
+}
+.topbox{
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  height:300px;
+  background-color: white;
+  overflow: auto;
+}
+#linie{
+  background-color:#0572D1;
+  padding: 8px;
+  font-size: 15px;
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+#linie a{
+  color:white;
+}
+
+#linie :link{
+  text-decoration: none;
+}
+#linie :visited {
+  text-decoration: none;
+}
+#linie :hover {
+  text-decoration: underline;
+}
+#linie :active {
+  color:#04B48D
+}
+
+#erstbild{
+ float: left;
+ width: 50%;
+ padding-right: 10px;
+ padding-left: 10px;
+ margin-top: 5px;
+}
+#haber{
+  font-size: 14px;
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#haber p,h2{
+  margin: 1px;
+}
+#haber a:link{
+  text-decoration: none;
+  color:black;
+}
+#haber a:visited {
+  text-decoration: none;
+}
+#haber a:hover{
+  text-decoration: underline;
+}
+
+#mitlererbox{
+  width: 1100px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  height:490px;
+  margin-top: 30px;
+}
+.box1{
+  width: 340px;
+  margin:10px;
+  float: left;
+  overflow: auto;
+  font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 14px;
+}
+
+.box1 a:link{
+  text-decoration: none;
+}
+.box1 a:visited {
+  text-decoration: none;
+}
+.box1 a:hover {
+  text-decoration: underline;
+}
+.box1 a:active {
+  color:#04B48D
+}
+
+.media{
+  background-color:#576284;
+  padding: 8px;
+  text-decoration: none;
+}
+
+.media a{
+  color:white;
+}
+
+#merkel{
+  width: 100%;
+  height: 190px;
+  margin-top: 5px;
+}
+
+#geldboerse{
+  width: 100%;
+  height: 190px;
+  margin-top: 5px;
+}
+#tour{
+  width: 100%;
+  height: 190px;
+  margin-top: 5px;
+}
+
+#wrt{
+  background-color: #e7bf3c;
+}
+#wrt a{
+  color: black;
+}
+#sprt{
+  background-color: #581154;
+}
